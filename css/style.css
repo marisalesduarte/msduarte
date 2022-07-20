@@ -1,0 +1,101 @@
+/*HTML simple page desenvolvida por Mari Duarte/*
+
+/*Geral*/
+
+.cover-container {
+  max-width: 42em;
+}
+
+:link {
+  color: #f4e002;
+  text-decoration: none;
+}
+
+:hover {
+  color: #fff;
+}
+
+/*Fonts*/
+
+@font-face {
+  font-family: Lato-Light;
+  src: url('../fonts/Lato/Lato-Light.ttf'); 
+}
+
+@font-face {
+  font-family: Lato-Hairline;
+  src: url('../fonts/Lato/Lato-Hairline.ttf'); 
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+}
+
+/*Header*/
+
+.nav-masthead .nav-link {
+  font-family: Lato-Bold;
+  color: #f4e002;
+  text-decoration: none;
+  padding: .25rem 0;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*Portfólio*/
+
+.titulo {
+  font-family: Lato-Hairline;
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+}
+
+.desc {
+  font-family: Lato-Light;
+}
+
+strong {
+  color: #f4e002;
+}
+
+.projetos a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Lato-Bold;
+}
+
+.projetos a:hover {
+  color: #f4e002;
+}
+
+/*Footer*/
+
+.redes a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: #f4e002;
+}
+ 
+ 
+/*Responsive*/
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
