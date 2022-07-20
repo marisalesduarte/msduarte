@@ -1,6 +1,5 @@
 # www.msduarte.com.br
-Página pessoal para links e portfólio
+Página pessoal para links úteis e portfólio
 
-```bash
-#HTML #CSS
-```
+- ``HTML``
+- ``CSS``
